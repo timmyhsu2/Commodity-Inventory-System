@@ -1,7 +1,10 @@
 # Commodity-Inventory-System
 ENGG1340 Course Project
+
 Group 23:
+
 Chang Wei-Fan 3035554610
+
 Hsu Ya-Cheng  3035550250
 ## Problem Statement
 With the rise of e-commerce services, the industry has expanded exponentially. There has been an increasing demand for a more efficient inventory system. 
