@@ -31,4 +31,4 @@ We have a command option called 'Best-selling', if executed, it will list out th
 ### Access current stock
 You can view the current stock situation if you choose to, since the system is updated immediately.
 
-You can also print the current inventory into an **output file** whenever you wish to.
+You can also print the current inventory into an output file whenever you wish to.
