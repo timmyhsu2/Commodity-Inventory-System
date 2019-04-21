@@ -27,7 +27,7 @@ When the commodotity is 'out-of-stock' or 'nearly-out-of-stock', the system will
 ### Auto-update
 The system will automatically update if there is new entries. (Such as an item status changing)
 ### Best selling policies
-We have a command option called 'Best-selling', if executed, it will list out the **top 3 items** that were sold the most, and offer some policies to boost sales to retailers.
+We have a command option called 'Best-selling', if executed, it will list out the **top 3 items** (There may be more than three.) that were sold the most, and offer some policies to boost sales to retailers.
 ### Access current stock
 You can view the current stock situation if you choose to, since the system is updated immediately.
 
