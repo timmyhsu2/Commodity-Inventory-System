@@ -1,21 +1,22 @@
-access_stock.o:access_stock.cpp access_stock.h item.h
+access_stock.o:access_stock.cpp functions.h
 	g++ -c access_stock.cpp
 
-auto_update.o:auto_update.cpp autoupdate.h item.h
+auto_update.o:auto_update.cpp functions.h
 	g++ -c auto_update.cpp
 
-best_selling.o:best_selling.cpp bestselling.h item.h
+best_selling.o:best_selling.cpp functions.h
 	g++ -c best_selling.cpp
 
-input.o:input.cpp input.h item.h
+input.o:input.cpp functions.h
 	g++ -c input.cpp
 
-output.o:output.cpp output.h item.h
+output.o:output.cpp functions.h
 	g++ -c output.cpp
 
-search_func.o:search_func.cpp search.h item.h
+search_func.o:search_func.cpp functions.h
+	g++ -c search_func.cpp
 
-main.o:main.cpp item.h access_stock.h autoupdate.h bestselling.h input.h output.h search.h
+main.o:main.cpp functions.h 
 	g++ -c main.cpp
 
 system:main.o access_stock.o auto_update.o best_selling.o input.o output.o search_func.o
