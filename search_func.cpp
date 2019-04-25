@@ -3,8 +3,8 @@
 #include <iomanip>
 #include <fstream>
 #include <vector>
-#include "item.h"
-#include "search.h"
+#include <iomanip>
+#include "functions.h"
 using namespace std;
 void search (vector<item> &item)
 {
@@ -19,7 +19,12 @@ void search (vector<item> &item)
       {
         if (item[i].flag == "out-of-stock")
         {
-          cout<<item[i].name<<"     "<<item[i].flag<<"     "<<item[i].stock<<"     "<<item[i].price<<"     "<<item[i].shops<<'\n';
+          cout<<left;
+          cout<<setw(10)<<item[i].name;
+          cout<<setw(20)<<item[i].flag;
+          cout<<setw(5)<<item[i].stock;
+          cout<<setw(5)<<item[i].price;
+          cout<<setw(10)<<item[i].shops<<'\n';
         }
       }
     }
@@ -29,7 +34,12 @@ void search (vector<item> &item)
       {
         if (item[i].flag == "nearly-out-of-stock")
         {
-          cout<<item[i].name<<"     "<<item[i].flag<<"     "<<item[i].stock<<"     "<<item[i].price<<"     "<<item[i].shops<<'\n';
+          cout<<left;
+          cout<<setw(10)<<item[i].name;
+          cout<<setw(20)<<item[i].flag;
+          cout<<setw(5)<<item[i].stock;
+          cout<<setw(5)<<item[i].price;
+          cout<<setw(10)<<item[i].shops<<'\n';
         }
       }
     }
@@ -39,7 +49,12 @@ void search (vector<item> &item)
       {
         if (item[i].flag == "in-stock")
         {
-          cout<<item[i].name<<"     "<<item[i].flag<<"     "<<item[i].stock<<"     "<<item[i].price<<"     "<<item[i].shops<<'\n';
+          cout<<left;
+          cout<<setw(10)<<item[i].name;
+          cout<<setw(20)<<item[i].flag;
+          cout<<setw(5)<<item[i].stock;
+          cout<<setw(5)<<item[i].price;
+          cout<<setw(10)<<item[i].shops<<'\n';
         }
       }
     }
