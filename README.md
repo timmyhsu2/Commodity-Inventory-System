@@ -15,15 +15,15 @@ A search function should be implemented, search results should tell how many sto
 ### Input/Output
 Different retail shops can input items to the systems seperately. 
 
-The items inputted will provide basic information, such as name, amount, price, stock number, manufacturer, availability in shops. 
+The items inputted will provide basic information, such as name, flag, amount, price, stock number, and availability in shops. 
 
-The system will read the input files, and store them into the system, and sort.
+The system will read the input files, and store them into the system.
 
-If an item is out-of-stock, we will notify all retailers asking if they want to restock, if **all answers are 'NO'**, the system will delete the item.
+If an item is out-of-stock, we will notify retailers asking if they want to restock, if **answer is 'NO'**, the system will delete the item.
 
 If any extra descriptions or information needs to be updated, such as some problems retailers encountered, we can update it under said item immediately.
 
-When the commodotity is 'out-of-stock' or 'nearly-out-of-stock', the system will alert you.
+When the commodotity is changed to 'out-of-stock' or 'nearly-out-of-stock', the system will alert you.
 ### Auto-update
 The system will automatically update if there is new entries. (Such as an item status changing)
 ### Best selling policies
